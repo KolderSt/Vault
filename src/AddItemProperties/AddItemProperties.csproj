@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autodesk.Connectivity.Extensibility.Framework">
+      <HintPath>$(ProgramFiles)\\Autodesk\\Vault Professional 2024\\Explorer\\Autodesk.Connectivity.Extensibility.Framework.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Autodesk.Connectivity.Explorer.Extensibility">
+      <HintPath>$(ProgramFiles)\\Autodesk\\Vault Professional 2024\\Explorer\\Autodesk.Connectivity.Explorer.Extensibility.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Autodesk.Connectivity.WebServices">
+      <HintPath>$(ProgramFiles)\\Autodesk\\Vault Professional 2024\\Explorer\\Autodesk.Connectivity.WebServices.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Autodesk.Connectivity.WebServicesTools">
+      <HintPath>$(ProgramFiles)\\Autodesk\\Vault Professional 2024\\Explorer\\Autodesk.Connectivity.WebServicesTools.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+</Project>
